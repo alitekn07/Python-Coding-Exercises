@@ -30,7 +30,7 @@
 
 <h1>About</h1>
 
-<p align="justify">With this projects, you will be able to learn and practise Python codes and you will able to do new projects. It's available to use daily.</p>
+<p align="justify">With these projects, you will be able to learn and practice Python codes and produce new projects.</p>
 
 
 <h1>Disclaimer</h1>
