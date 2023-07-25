@@ -26,7 +26,7 @@
 
 <h1>Download</h1>
 
-#### You can download the codes from [Here](https://github.com/alitekn07/CodingExercises/archive/refs/heads/main.zip) directly.
+#### You can download the codes from [Here](https://github.com/alitekn07/CodingExercises/archive/refs/heads/main.zip) directly and try yourself or check them on Github.
 
 <h1>About</h1>
 
