@@ -1,31 +1,72 @@
+import math
+from time import sleep
 
+print("\n                    ***********\n                    CALCULATOR\n                    ***********")
 
-print("Hesap Makinesi V1\n")
+print("""
+Please select the action to take..
 
-print("İşlem Sırası:\n1) Toplama\n2) Çıkarma\n3) Çarpma\n4) Bölme\n")
+0) Exit
+1) Gathering (+)
+2) Subtraction (-)
+3) Multiplication (*)
+4) Divide (/)
+""")
 
+while True:
+    process = int(input("Please Select: "))
 
-a = int(input("1. Sayı: "))
-b = int(input("2. Sayı: "))
+    if process == 0:
+        print("Exiting the program please wait...\n")
+        sleep(1)
+        print("The program has been exited, have a nice day!")
+        break
 
-islem = input("İşlem Numarasını Giriniz: ")
+    elif process == 1:
+        print("Please enter 2 number\n")
 
-if (islem == "1"):
+        a = int(input("First Number: "))
+        b = int(input("Second Number: "))
 
-    print("{} ile {} sayısının toplamı: {}".format(a,b,a+b))
+        print("\nProcessing...")
+        sleep(1)
 
-elif (islem == "2"):
+        print("\nResult: ", a+b)
 
-    print("{} ile {} sayısının çıkarma sonucu: {}".format(a,b,a-b))
+    elif process == 2:
+        print("Please enter 2 number\n")
 
-elif (islem == "3"):
+        a = int(input("First Number: "))
+        b = int(input("Second Number: "))
 
-    print("{} ile {} sayısının çarpımı: {}".format(a,b,a*b))
+        print("\nProcessing...")
+        sleep(1)
 
-elif (islem == "4"):
+        print("\nResult: ", a-b)
 
-    print("{} ile {} sayısının bölümü: {}".format(a,b,a/b))
+    elif process == 3:
+        print("Please enter 2 number\n")
 
-else:
+        a = int(input("First Number: "))
+        b = int(input("Second Number: "))
 
-    print("Lütfen işlem sırasını doğru seçiniz!")
+        print("\nProcessing...")
+        sleep(1)
+
+        print("\nResult: ", a*b)
+
+    elif process == 4:
+        print("Please enter 2 number\n")
+
+        a = int(input("First Number: "))
+        b = int(input("Second Number: "))
+
+        print("\nProcessing...")
+        sleep(1)
+
+        print("\nResult: ", a/b)
+
+    else:
+        print("\nWrong Selection..")
+        print("Exiting the program..")
+        break
